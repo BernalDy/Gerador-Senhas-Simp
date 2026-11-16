@@ -4,7 +4,7 @@ Aplicação web em Python que gera senhas aleatórias e também verifica se uma 
 
 ## Funcionalidades
 - Escolha o tamanho e os tipos de caracteres (maiúsculas, números, símbolos)
-- Garantia de pelo menos um caracteres de cada tipo escolhido
+- Garantia de pelo menos um caractere de cada tipo escolhido
 - Histórico das últimas senhas geradas na sessão
 - Verificação de vazamento pela API pública Pwned Passwords
 
