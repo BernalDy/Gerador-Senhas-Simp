@@ -55,6 +55,8 @@ if "historico" not in st.session_state:
 if "senha_atual" not in st.session_state:
     st.session_state.senha_atual = ""
 
+st.warning("Demo online: use apenas senhas de teste. Para gerar ou verificar senhas reais, rode o app localmente (instruções no README).")  
+
 tamanho = st.slider("Tamanho da senha", 5, 32, 8)
 usar_maiusculas = st.checkbox("Letras maiúsculas", value=True)
 usar_numeros = st.checkbox("Números", value=True)
